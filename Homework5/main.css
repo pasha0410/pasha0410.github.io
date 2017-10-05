@@ -1,0 +1,190 @@
+*{
+	font-family:  Arial, sans-serif;
+	font-weight: 600;
+	list-style-type: none;
+	color:  #c2c2c2;
+}
+body {
+	background: #f1f1f1;
+}
+.ser {
+	font-size: 95px;
+	background-color: #f1f1f1;
+	color: #ec5a62;
+    border: none;
+    margin-left: 159px;
+    margin-top:29px;
+   }
+ input[type="text"]::-webkit-input-placeholder {
+    color: #c2c2c2;
+   } 
+ input[type="text"]::-moz-placeholder {
+    color: #c2c2c2;
+ }
+ input[type="submit"] {
+ 	width: 100px;
+ 	height: 100px;
+ 	text-indent: -9999px;
+ 	background-color: #f1f1f1;
+    border: none;
+    vertical-align: 25px;
+    -webkit-transform: scale(1,1);
+    -webkit-transition-timing-function: ease-out;
+    -moz-transform: scale(1,1);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 550ms;
+ }
+ input[type="submit"]:hover {
+    -webkit-transform: scale(1.2,1.2);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 550ms;
+    -moz-transform: scale(1.2,1.2);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 550ms;
+   }
+input[type="submit"]:hover {
+	background-color: #f1f1f1;
+}	
+input, textarea {outline:none;}
+li {
+	font-size: 14px;
+	border-radius: 5px;
+}
+h4 {
+	font-weight: 900;
+}
+.people {
+	margin-top: 45px;
+	margin-left: 160px;
+	position: relative;
+}
+ul {
+	margin-left: -40px;
+}
+.round {
+    border-radius: 100px; 
+}
+.sara  {
+	width: 26%;
+	height: 80px;
+	background:  rgba(118,117,128,0.05);
+}
+.rachel, .peter, .patrick, .tim, .shaun  {
+	width: 26%;
+	height: 80px;
+	margin-top: 4px;
+	background: rgba(118,117,128,0.05);
+
+}
+.sara__pic, .rachel__pic, .peter__pic, .patrick__pic, .tim__pic, .shaun__pic {
+	position: relative;
+	left: 11px;
+	top: 14px;
+}
+a {
+	display: block;
+	height: 100%;
+	text-decoration: none;
+}
+.sara:hover .sara__pic {
+	color:#ec5a62;
+}
+.rachel:hover .rachel__pic {
+	color:#ec5a62;
+}
+.peter:hover .peter__pic {
+	color:#ec5a62;
+}
+.patrick:hover .patrick__pic {
+	color:#ec5a62;
+}
+.tim:hover .tim__pic {
+	color:#ec5a62;
+}
+.shaun:hover .shaun__pic {
+	color:#ec5a62;
+}
+.popular {
+	display: inline-block;
+	margin-left: 38%;
+	position: absolute;
+	top: 172px;
+}
+.page  {
+	width: 145%;
+	height: 80px;
+	background:  rgba(118,117,128,0.05);
+}
+.arrow, .ideas, .halcyon, .inspiration, .draggable  {
+	width: 145%;
+	height: 80px;
+	margin-top: 4px;
+	background: rgba(118,117,128,0.05);
+}
+.page__pic, .arrow__pic, .ideas__pic, .halcyon__pic, .inspiration__pic, .draggable__pic {
+	position: relative;
+	left: 11px;
+	top: 14px;
+}
+.page:hover .page__pic {
+	color:#ec5a62;
+}
+.ideas:hover .ideas__pic {
+	color:#ec5a62;
+}
+.halcyon:hover .halcyon__pic {
+	color:#ec5a62;
+}
+.inspiration:hover .inspiration__pic {
+	color:#ec5a62;
+}
+.draggable:hover .draggable__pic {
+	color:#ec5a62;
+}
+.arrow:hover .arrow__pic {
+	color:#ec5a62;
+}
+.recent {
+	display: inline-block;
+	margin-left: 69%;
+	position: absolute;
+	top: 172px;
+}
+.tool  {
+	width: 145%;
+	height: 80px;
+	background:  rgba(118,117,128,0.05);
+}
+.animated, .off, .tab, .make, .notification  {
+	width: 145%;
+	height: 80px;
+	margin-top: 4px;
+	background: rgba(118,117,128,0.05);
+}
+.tool__pic, .animated__pic, .off__pic, .tab__pic, .make__pic, .notification__pic {
+	position: relative;
+	left: 11px;
+	top: 14px;
+}
+li:hover {
+	background: rgba(118,117,128,0.1);
+	color: #ec5a62
+}
+.tool:hover .tool__pic {
+	color:#ec5a62;
+}
+.animated:hover .animated__pic {
+	color:#ec5a62;
+}	
+.off:hover .off__pic {
+	color:#ec5a62;
+}	
+.tab:hover .tab__pic {
+	color:#ec5a62;
+}	
+.make:hover .make__pic {
+	color:#ec5a62;
+}	
+.notification:hover .notification__pic {
+	color:#ec5a62;
+}	
